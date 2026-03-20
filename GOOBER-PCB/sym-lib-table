@@ -1,4 +1,5 @@
 (sym_lib_table
   (version 7)
-  (lib (name "NR111D")(type "KiCad")(uri "${KIPRJMOD}/symbols/NR111D.kicad_sym")(options "")(descr ""))
+  (lib (name "TCAN3414")(type "KiCad")(uri "${KIPRJMOD}/symbols/TCAN3414DR.kicad_sym")(options "")(descr ""))
+  (lib (name "ESP32")(type "KiCad")(uri "${KIPRJMOD}/symbols/esp32.kicad_sym")(options "")(descr ""))
 )
