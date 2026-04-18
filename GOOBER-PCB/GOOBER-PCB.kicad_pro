@@ -224,7 +224,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "0.2"
+      "sch_revision": "1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -510,7 +510,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -645,7 +645,7 @@
         "uuid": "69d2e9b3-bdf1-40d9-9a29-fed7046e6c20"
       }
     ],
-    "used_designators": "TP45,R12,R15,R19,C13,#PWR25,#PWR44-53,#PWR85-86,J7,J9,J20",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "GOOBER PCB")
-		(date "2026-04-03")
-		(rev "0.2")
+		(date "2026-04-17")
+		(rev "1")
 		(company "W0UNC")
 		(comment 1 "For W0UNC off grid project")
 	)
@@ -7178,30 +7178,6 @@
 			)
 		)
 	)
-	(global_label "GPIO14"
-		(shape input)
-		(at 125.73 152.4 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1ad179cc-19ce-4dd9-8643-3f8c2a7936da")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.8505 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "SDA"
 		(shape input)
 		(at 227.33 119.38 0)
@@ -7895,30 +7871,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "USBD_P"
-		(shape input)
-		(at 269.24 139.7 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "59379639-3826-4d24-92d8-165021e2548b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 279.5428 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -8762,30 +8714,6 @@
 			)
 		)
 	)
-	(global_label "GPIO13"
-		(shape input)
-		(at 125.73 149.86 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "936b105f-3f7a-4772-812d-2dcf53c59591")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.8505 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "GPIO45"
 		(shape input)
 		(at 265.43 58.42 0)
@@ -8871,6 +8799,30 @@
 		(uuid "9a6c5559-b979-478e-8609-6f1de35c7641")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 184.37 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GPIO37"
+		(shape input)
+		(at 125.73 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9b9504a1-bbad-444a-b767-18b5f9861aea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.8505 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9063,6 +9015,30 @@
 		(uuid "b1434b31-5947-40cd-a457-ea010215f533")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 218.1595 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO35"
+		(shape input)
+		(at 139.7 157.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b165ceea-2fb1-4924-9f6e-de278789df2f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.5795 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9314,30 +9290,6 @@
 			)
 		)
 	)
-	(global_label "GPIO11"
-		(shape input)
-		(at 139.7 157.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c8678a3b-693f-43b0-8ffa-35dc8893d717")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.5795 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "GPIO2"
 		(shape input)
 		(at 269.24 104.14 0)
@@ -9434,30 +9386,6 @@
 			)
 		)
 	)
-	(global_label "GPIO12"
-		(shape input)
-		(at 125.73 147.32 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cbc81953-5160-45cc-aeed-81cc7586d0ae")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.8505 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "MTDO"
 		(shape input)
 		(at 149.86 171.45 0)
@@ -9543,30 +9471,6 @@
 		(uuid "df0bbc38-ac2c-4742-900d-900ed1a5abb0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 277.2447 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "USBD_N"
-		(shape input)
-		(at 269.24 142.24 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e0709db2-3aba-423b-8abf-55c2e696e235")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 279.6033 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9671,6 +9575,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO38"
+		(shape input)
+		(at 125.73 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e7d4bff3-a29a-498c-96b1-f7fca06f888a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.8505 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -9794,6 +9722,30 @@
 			)
 		)
 	)
+	(global_label "GPIO36"
+		(shape input)
+		(at 125.73 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ef5a0bc0-92c8-4d41-a277-c29dc9dfa6ef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.8505 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "GPIO18"
 		(shape input)
 		(at 251.46 116.84 180)
@@ -9914,7 +9866,7 @@
 			)
 		)
 	)
-	(global_label "GPIO10"
+	(global_label "GPIO0"
 		(shape input)
 		(at 139.7 160.02 0)
 		(fields_autoplaced yes)
@@ -9924,9 +9876,9 @@
 			)
 			(justify left)
 		)
-		(uuid "f8b5fddc-a123-4431-8e95-07d2ab50bde1")
+		(uuid "f8cb0e0d-eb61-406b-bd9f-f87103f033b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.5795 160.02 0)
+			(at 148.37 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16467,86 +16419,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Probe")
-		(at 269.24 139.7 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "949069bf-07cf-4d58-97f9-653681d78c7f")
-		(property "Reference" "TP36"
-			(at 265.43 136.8424 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TP"
-			(at 265.43 139.3824 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 264.16 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point (alternative probe-style design)"
-			(at 269.24 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fe0096e3-0dce-4238-b8f7-55f4a108a5fb")
-		)
-		(instances
-			(project "GOOBER-PCB"
-				(path "/69d2e9b3-bdf1-40d9-9a29-fed7046e6c20"
-					(reference "TP36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 161.29 92.71 0)
 		(unit 1)
@@ -16697,86 +16569,6 @@
 			(project "GOOBER-PCB"
 				(path "/69d2e9b3-bdf1-40d9-9a29-fed7046e6c20"
 					(reference "TP10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Probe")
-		(at 269.24 142.24 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "986b8c99-241e-44c0-be0b-95bd3ece172c")
-		(property "Reference" "TP37"
-			(at 265.43 139.3824 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TP"
-			(at 265.43 141.9224 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 264.16 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point (alternative probe-style design)"
-			(at 269.24 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8f9eb74c-100b-47a9-aeb7-52bc985b02a7")
-		)
-		(instances
-			(project "GOOBER-PCB"
-				(path "/69d2e9b3-bdf1-40d9-9a29-fed7046e6c20"
-					(reference "TP37")
 					(unit 1)
 				)
 			)
