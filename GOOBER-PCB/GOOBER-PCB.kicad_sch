@@ -5277,6 +5277,12 @@
 		(uuid "83dd5efe-96bf-49e5-a335-b58b41d93cf1")
 	)
 	(junction
+		(at 179.07 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d122c0a-c2fd-4a2a-9fda-0700f79bb288")
+	)
+	(junction
 		(at 77.47 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5343,6 +5349,12 @@
 		(uuid "dc0a751d-22e3-48c3-9c59-19ddf5476663")
 	)
 	(junction
+		(at 172.72 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "def1dac5-6471-45fb-b541-bfbe7650c03e")
+	)
+	(junction
 		(at 60.96 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5359,12 +5371,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4398591-1ac7-45ec-a106-b08c72c47cf3")
-	)
-	(junction
-		(at 179.07 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f87f3c5f-359e-45fd-a2ae-096ec5f527e9")
 	)
 	(no_connect
 		(at 139.7 142.24)
@@ -5820,6 +5826,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 81.28) (xy 172.72 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "408cb031-65c5-4a69-87b8-ed9aabe2b448")
+	)
+	(wire
+		(pts
 			(xy 193.04 22.86) (xy 193.04 25.4)
 		)
 		(stroke
@@ -6120,6 +6136,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 69.85) (xy 172.72 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d54e1cb-625e-4957-87fd-19e5fd6c6777")
+	)
+	(wire
+		(pts
 			(xy 265.43 73.66) (xy 265.43 76.2)
 		)
 		(stroke
@@ -6380,16 +6406,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 73.66) (xy 179.07 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aef5f19c-ba91-4e6f-8039-a1d3e4dd9ca9")
-	)
-	(wire
-		(pts
 			(xy 36.83 102.87) (xy 36.83 101.6)
 		)
 		(stroke
@@ -6497,6 +6513,16 @@
 			(type default)
 		)
 		(uuid "b92ecfb8-1775-40bd-bfaf-b79c0bad1cc5")
+	)
+	(wire
+		(pts
+			(xy 172.72 73.66) (xy 179.07 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba29063f-e421-4287-aeb8-95b9116c3fe7")
 	)
 	(wire
 		(pts
@@ -11405,6 +11431,87 @@
 			(project "GOOBER-PCB"
 				(path "/69d2e9b3-bdf1-40d9-9a29-fed7046e6c20"
 					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 172.72 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "201556ea-5bfb-4e74-a3d3-53c03c0f02c2")
+		(property "Reference" "C14"
+			(at 173.355 75.5649 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47uF"
+			(at 173.355 80.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 173.6852 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/GRM31CR61A476ME15L/2334879"
+			(at 172.72 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 172.72 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "73c07a3c-1a24-4923-b94b-781c98a88083")
+		)
+		(pin "2"
+			(uuid "d1365cdc-10f7-4f1c-b92e-64cd54ea4671")
+		)
+		(instances
+			(project "GOOBER-PCB"
+				(path "/69d2e9b3-bdf1-40d9-9a29-fed7046e6c20"
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -16646,6 +16753,83 @@
 			(project "GOOBER-PCB"
 				(path "/69d2e9b3-bdf1-40d9-9a29-fed7046e6c20"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 172.72 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9c992533-63f6-48e7-9dfa-6ee7a40e1527")
+		(property "Reference" "#PWR054"
+			(at 172.72 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 172.72 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f99c4cf1-bb7a-481a-9bf8-e2e2025b55fa")
+		)
+		(instances
+			(project "GOOBER-PCB"
+				(path "/69d2e9b3-bdf1-40d9-9a29-fed7046e6c20"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -22151,7 +22335,7 @@
 	)
 	(symbol
 		(lib_id "power:+5VA")
-		(at 173.99 73.66 0)
+		(at 172.72 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22161,7 +22345,7 @@
 		(dnp no)
 		(uuid "fa995622-67e1-4dce-b27d-50d1adc320c2")
 		(property "Reference" "#PWR05"
-			(at 173.99 77.47 0)
+			(at 172.72 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22172,7 +22356,7 @@
 			)
 		)
 		(property "Value" "+5VA"
-			(at 173.482 70.104 0)
+			(at 172.212 66.294 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22182,7 +22366,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 73.66 0)
+			(at 172.72 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22193,7 +22377,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 73.66 0)
+			(at 172.72 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22204,7 +22388,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5VA\""
-			(at 173.99 73.66 0)
+			(at 172.72 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
